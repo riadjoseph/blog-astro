@@ -2,23 +2,23 @@ import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 
 export const headerData = {
   links: [
-    {
-      text: 'Livros',
-      links: [
-        {
-          text: 'O Universo da Programação',
-          href: 'https://www.casadocodigo.com.br/products/livro-universo-programacao',
-        },
-        {
-          text: 'Navegando no Universo da Programação',
-          href: 'https://www.casadocodigo.com.br/products/livro-navegando-universo',
-        },
-        {
-          text: 'Carreira Técnica no Universo da Programação',
-          href: 'https://www.casadocodigo.com.br/products/livro-carreira-tecnica',
-        },
-      ],
-    },
+    //{
+      //text: 'Livros',
+      //links: [
+      //  {
+      //    text: 'O Universo da Programação',
+      //    href: 'https://www.casadocodigo.com.br/products/livro-universo-programacao',
+      //  },
+      //  {
+      //    text: 'Navegando no Universo da Programação',
+      //    href: 'https://www.casadocodigo.com.br/products/livro-navegando-universo',
+      //  },
+      //  {
+      //    text: 'Carreira Técnica no Universo da Programação',
+      //    href: 'https://www.casadocodigo.com.br/products/livro-carreira-tecnica',
+      //  },
+      //],
+   // },
     // {
     //   text: 'Homes',
     //   links: [
@@ -102,18 +102,18 @@ export const headerData = {
     //     },
     //   ],
     // },
-    {
-      text: 'Mentoria',
-      href: getPermalink('/mentoria'),
-    },
+    //{
+      //text: 'Mentoria',
+      //href: getPermalink('/mentoria'),
+    //},
     {
       text: 'Blog',
       href: getBlogPermalink(),
     },
-    {
-      text: 'Sobre mim',
-      href: getPermalink('/sobre'),
-    },
+    //{
+      //text: 'Sobre mim',
+      //href: getPermalink('/sobre'),
+    //},
     // {
     //   text: 'Blog',
     //   links: [
@@ -144,32 +144,32 @@ export const headerData = {
 };
 
 export const footerData = {
-  links: [
-    {
-      title: 'Iniciativas que participo',
-      links: [
-        { text: 'Núcleo de Tecnologia do MTST', href: 'https://nucleodetecnologia.com.br/' },
-        { text: 'Laboratória', href: 'https://www.laboratoria.la/' },
-      ],
-    },
-    {
-      title: 'Iniciativas das quais já fiz parte',
-      links: [
-        { text: 'perifaCode', href: 'https://perifacode.com/' },
-        { text: 'Tecnogueto', href: 'https://www.linkedin.com/company/tecnogueto/' },
-        { text: 'Training Center', href: 'https://github.com/training-center' },
-      ],
-    },
-  ],
-  // secondaryLinks: [
+ // links: [
+   // {
+   //   title: 'Iniciativas que participo',
+    //  links: [
+     //   { text: 'Núcleo de Tecnologia do MTST', href: 'https://nucleodetecnologia.com.br/' },
+     //   { text: 'Laboratória', href: 'https://www.laboratoria.la/' },
+     // ],
+   // },
+   //{
+    //  title: 'Iniciativas das quais já fiz parte',
+    //  links: [
+     //   { text: 'perifaCode', href: 'https://perifacode.com/' },
+     //   { text: 'Tecnogueto', href: 'https://www.linkedin.com/company/tecnogueto/' },
+      //  { text: 'Training Center', href: 'https://github.com/training-center' },
+     // ],
+   // },
+ // ],
+   secondaryLinks: [
   //   { text: 'Terms', href: getPermalink('/terms') },
-  //   { text: 'Privacy Policy', href: getPermalink('/privacy') },
-  // ],
+    { text: 'Privacy Policy', href: getPermalink('/privacy') },
+   ],
   socialLinks: [
-    { ariaLabel: 'X', icon: 'tabler:brand-x', href: 'https://twitter.com/1ilhas' },
-    { ariaLabel: 'LinkedIn', icon: 'tabler:brand-linkedin', href: 'https://www.linkedin.com/in/william-oliveira/' },
+    { ariaLabel: 'X', icon: 'tabler:brand-x', href: 'https://twitter.com/riadjosephs' },
+    { ariaLabel: 'LinkedIn', icon: 'tabler:brand-linkedin', href: 'https://www.linkedin.com/in/riadjoseph/' },
     { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
-    { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/woliveiras' },
+   // { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/woliveiras' },
   ],
   footNote: `
     <a rel="license" href="https://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png"></a><br/>

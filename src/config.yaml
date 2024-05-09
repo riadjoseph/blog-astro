@@ -1,6 +1,6 @@
 site:
-  name: William Oliveira
-  site: 'https://woliveiras.com.br'
+  name: Riad JOSEPH
+  site: 'https://webforgood.fr'
   base: '/'
   trailingSlash: false
 
@@ -9,26 +9,26 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: William Oliveira
-    template: '%s — William Oliveira'
-  description: 'Carreira em programação, desenvolvimento frontend, web performance, arquitetura de software'
+    default: Technical SEO in Paris - Riad JOSEPH
+    template: '%s — Riad JOSEPH'
+  description: 'Technical SEO who works with you to tackle challenges in code, content, automation, and strategy.'
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: William Oliveira
+    site_name: Technical SEO in Paris - Riad JOSEPH
     images:
-      - url: '~/assets/images/default.png'
+      - url: '~/assets/images/hero-image.png'
         width: 1200
         height: 628
     type: website
   twitter:
-    handle: '@1ilhas'
-    site: '@1ilhas'
+    handle: '@riadjosephs'
+    site: '@riadjosephs'
     cardType: summary_large_image
 
 i18n:
-  language: pt-br
+  language: en-fr
   textDirection: ltr
 
 apps:
@@ -66,7 +66,7 @@ apps:
 analytics:
   vendors:
     googleAnalytics:
-      id: 'UA-25964646-1'
+      id: '301432798'
 
 ui:
   theme: 'system' # Values: "system" | "light" | "dark" | "light:only" | "dark:only"

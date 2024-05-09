@@ -3,16 +3,16 @@
   publish = "dist"
 
 [[redirects]]
-  from = "/vimparanoobs"
-  to = "https://leanpub.com/vimparanoobs/"
+  from = ""
+  to = ""
   status = 301
 
 [[redirects]]
-  from = "/posts/pensando-em-componentes-de-interface-com-exemplos-em-react/"
-  to = "https://imasters.com.br/desenvolvimento/pensando-em-componentes-de-interface-com-exemplos-em-react"
+  from = ""
+  to = ""
   status = 301
 
 [[redirects]]
-  from = "/posts/mentoria-como-meio-de-apoio-%C3%A0-evolu%C3%A7%C3%A3o-dos-nossos-funcion%C3%A1rios/"
-  to = "https://imasters.com.br/carreira-dev/mentoria-como-meio-de-apoio-evolucao-dos-nossos-funcionarios"
+  from = ""
+  to = ""
   status = 301
